@@ -1,25 +1,46 @@
-# Book Stock Management System
 
-## Overview
-The Book Stock Management System is a Spring Boot web application designed for the Royal University of Phnom Penh (RUPP) project. It enables efficient management of a bookstore's inventory, supporting two user roles: Owners and Users. Owners can oversee stock by adding, editing, and deleting books, as well as managing categories, while Users can browse, search, and purchase books. The system includes a RESTful API for programmatic access and optional image upload functionality for book covers.
+markdown
+Copy
+Edit
+# 📚 Book Stock Management System
 
-## Features
-### Owner Features
-- **Book Management**:
-  - Add new books with details (title, author, price, quantity, image).
-  - Edit existing book information.
-  - Delete books from inventory.
-- **Category Management**:
-  - Add new categories (e.g., Fiction, Non-Fiction).
-  - Delete categories.
-- **Dashboard**: View a consolidated list of all books and categories.
+A Spring Boot web application built for the Royal University of Phnom Penh (RUPP) project. It provides a complete solution for managing bookstore inventory with two user roles: **Owner** and **User**.
 
-### User Features
+---
+
+## 🌐 Overview
+
+The Book Stock Management System helps bookstores manage their stock efficiently. It enables Owners to add, edit, and delete books and categories, while Users can browse, search, and purchase books. The system also exposes RESTful APIs and supports optional image uploads.
+
+---
+
+## 🚀 Features
+
+### 🔐 Owner Features
+
+- **Book Management**: Add, edit, and delete books with title, author, price, quantity, and image.
+- **Category Management**: Add and delete categories (e.g., Fiction, Non-Fiction).
+- **Dashboard**: View all books and categories in a single view.
+
+### 🙋 User Features
+
 - **Browse Books**: View books filtered by category.
-- **Search Books**: Search by title or author.
-- **Purchase Books**: Buy books with quantity selection, updating stock levels.
+- **Search Books**: Search by book title or author.
+- **Purchase Books**: Select quantity and purchase, with auto stock update.
 
-### General Features
-- **Inventory Tracking**: Real-time updates to book quantities upon purchase.
-- **REST API**: Endpoints for CRUD operations (e.g., `/owner/api/books` for stock management).
-- **Image Support**: Optional upload of book images to AWS S3 or local storage.
+### ⚙️ General Features
+
+- **Inventory Tracking**: Real-time updates to stock levels after purchases.
+- **RESTful API**: Endpoints for book/category CRUD operations.
+- **Image Upload**: Optional image support for book covers (local or AWS S3).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend**: Java, Spring Boot, Spring Data JPA, Spring Security (optional)
+- **Database**: PostgreSQL / MySQL
+- **Frontend**: Thymeleaf / React (optional frontend separation)
+- **Storage**: Local File System or AWS S3 (for image upload)
+- **API**: RESTful Web Services
+- **Build Tool**: Maven
