@@ -36,11 +36,4 @@ The Book Stock Management System helps bookstores manage their stock efficiently
 
 ---
 
-## 🛠️ Tech Stack
 
-- **Backend**: Java, Spring Boot, Spring Data JPA, Spring Security (optional)
-- **Database**: PostgreSQL / MySQL
-- **Frontend**: Thymeleaf / React (optional frontend separation)
-- **Storage**: Local File System or AWS S3 (for image upload)
-- **API**: RESTful Web Services
-- **Build Tool**: Maven
